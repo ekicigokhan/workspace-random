@@ -1,0 +1,48 @@
+REQUEST YAPISI
+
+VERB
+	GET : Kaynak isteme
+	POST : Kaynak oluşturma
+	PUT : Kaynak güncelleme
+	PATCH : Kismi kaynak güncellemesi
+	DELETE : Kaynak silme
+
+
+HEADERS
+	İstek hakkında üst(meta) bilgiler :
+	Content Type : İçeriğin formatı (JSON- XML örn : text)
+	Content Length : İçeriğin boyutu
+	Authorization : İsteği yapanın kimliği
+	Accept : Kabul edilen tipler
+	Cookies : İstek içindeki veriler
+	ve daha fazlası...
+
+
+CONTENT
+	İstek ile ilgili üretilen/cevaplanan içerik 
+	HTML , CSS, JS , XML, JSON
+	Bazı eylemler ile geçerli olmayan içerik
+	İsteği gerçekleşttirmeye yardımcı omak için bilgiler
+	Binary ve blobs coommon(.jpeg gibi)
+
+RESPONSE 
+
+STATUS CODE 
+	Operasyon Durumları
+	100-199 Bilgi(İnformation)
+	200-299 Başarı (Success)
+	300-399 Yeniden yönlendirme(Redirection)
+	400-499 İstemci hataları
+	500-599 Sunucu hataları
+
+HEADERS
+	İstek hakkında üst(meta) bilgiler :
+	Content Type : İçeriğin formatı (JSON- XML örn : text)
+	Content Length : İçeriğin boyutu
+
+CONTENT
+	İstek ile ilgili üretilen/cevaplanan içerik 
+	HTML , CSS, JS , XML, JSON
+	Bazı eylemler ile geçerli olmayan içerik
+	İsteği gerçekleşttirmeye yardımcı omak için bilgiler
+	Binary ve blobs coommon(.jpeg gibi)

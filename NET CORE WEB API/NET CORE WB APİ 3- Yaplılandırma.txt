@@ -1,0 +1,17 @@
+Bir IoC kaydı yapacaksak vs. önce bir service kaydı yapılmalıdır.
+örn. dizin;
+
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+    //BİR LOGLAMA İFADESİ İNŞA ETMEK ÜZERE TANIMLANMIŞ BİR İNTERFACE YAPISI
+    //DEFAULT OLARAK ÇERÇEVE(.NET FRAMEWORK) BİZE BİR LOGLAMA MEKANİZMASI VERİYOR.IOC YE KAYIT YAPMAK DURUMUNDA KALMIYORUZ.
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
+
+
+//CONFİGRATİON İFADELERİ İÇİN "PROGRAM.CS" KULLANILMALIDIR.
+
+//appSettings.json
+"Microsoft.AspNetCore": "Warning" ile başlayan paketlleri artık "warning" seviyesinde loglayacaksın.

@@ -1,0 +1,21 @@
+VERB GET-POST-PUT vs.
+	URI (End-Point)
+		Headers
+			Request Body
+
+ Rest : İstemci isteğini organize ederken bu bileşenleri hazırlamış oluyor ve bu bileşenlerle sunucuya gidiyor.
+ Sunucu isteği alır, okur, değerlendirir ve bir cavap üretir.
+ İstemci ve sunucu arasındaki kaynakların exchange edilmesi = REST MİMARİSİ.
+
+
+Sonra API bir status code üretecek.
+
+ÖRN : /books	books/1		/books/devlet	/books/bs-101
+
+QUERY STRİNG ÖRN :
+
+/books?sort=title
+/books?page=1
+/books?pageNumber=1&pageSize=10
+
+

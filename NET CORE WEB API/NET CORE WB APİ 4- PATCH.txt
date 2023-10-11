@@ -1,0 +1,21 @@
+PATCH 
+[FromBody] JsonPatchDocument<T> istiyor bizden.
+Content Type ise 
+    application/json değil,
+    application/json-patch+json
+
+Lazım olan NuGeT Package Manager paketleri nelerdir ? ;
+    Microsoft.AspNetCore.JsonPatch : BİR REQUEST BODY'DEN ALDIGIMIZ NESNEYİ JSONPATCHDOCUMENTT İLE SARMALAMAMIZI SAĞLIYOR.
+
+    Microsoft.AspNetCore.Mcv.NewtonsoftJson : CONTROLLER ÜZERİNDE BU İŞLEMLERİ YAPABİLMEMİZİ
+    AddNewtonsoftJson();//Controller katmanında kullanılacak.
+
+Replace
+    {
+    "op" : "replace",
+    "path" : "/name",
+    "value" : "new value"
+    } 
+
+Nuget Package Manager için Console kullanımı ile paket kurma
+    örn : Install-Package Microsoft.AspNetCore.JsonPatch

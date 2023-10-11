@@ -1,0 +1,14 @@
+appsettings.json'ı yani ;
+istersek 
+appsettings.Production.json olarak istersek,
+appsettings.Development.json 
+    
+
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information" veya "Warning" olabilir. ORTAMA GÖRE AYARLADIK.
+    }
+  },
+  "AllowedHosts": "*"
+}

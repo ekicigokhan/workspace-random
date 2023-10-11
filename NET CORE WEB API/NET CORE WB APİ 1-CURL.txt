@@ -1,0 +1,2 @@
+Client URL
+CURL : Bir URL'e bağlanıp, bağlanamayacağımızı veri transferi yapıp, yapamayacağımızı test etmek amacıyla kullanılır.

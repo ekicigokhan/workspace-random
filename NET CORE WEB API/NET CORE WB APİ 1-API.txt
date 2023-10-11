@@ -1,0 +1,1 @@
+API : RESTFUL APİ mimarisini benimseyen projenin endpoint'i yani sunum katmanıdır.
